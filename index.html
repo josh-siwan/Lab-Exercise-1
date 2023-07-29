@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roll</title>
+    <script type="text/javascript" src="roll.js"></script>
 </head>
 <body>
     <header> Roll a Dice!</header>
-    <button> 6 Faces </button>
-    <button> 10 Faces </button>
+    <button onclick="diceRoll(6)" > 6 Faces </button>
+    <h2 id="diceRoll-6"> </h2>
+    <button onclick="diceRoll(10)"> 10 Faces </button>
+    <h2 id="diceRoll-10"> </h2>
 </body>
 </html>
