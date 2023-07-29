@@ -8,5 +8,16 @@ function diceRoll ( dice ) {
 }
 
 
+function testRoll () {
+    console.log('TESTING DICE: D6')
+    for (let i = 0; i <=10; i++ ){
+        console.log(diceRoll(6))
+    }
+    console.log('TESTING DICE: D10')
+    for (let i = 0; i <=10; i++ ){
+        console.log(diceRoll(10))
+    }
+    
+}
 
-
+testRoll();
