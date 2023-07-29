@@ -1,18 +1,25 @@
 .roll {
     text-align: center;
-    background-color: purple;
+    background-color:  rgb(110, 110, 192)
+    
 }
 
 .first-button {
     position: absolute;
     top: 20%;
-    left: 46%;
+    left: 44%;
+    height: 4%;
+    width: 6%;
+    font-size: 16px;
 }
 
 .second-button {
     position: absolute;
     top: 20%;
     left: 51%;
+    height: 4%;
+    width: 6%;
+    font-size: 16px;
 }
 
 .value-1 {
@@ -25,4 +32,8 @@
     position: absolute;
     top: 24%;
     left: 53%;
+}
+
+body {
+    background-color: rgb(168, 168, 231)
 }
