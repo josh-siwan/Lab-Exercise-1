@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roll</title>
     <script type="text/javascript" src="roll.js"></script>
 </head>
 <body>
-    <header> Roll a Dice!</header>
-    <button onclick="diceRoll(6)" > 6 Faces </button>
-    <h2 id="diceRoll-6"> </h2>
-    <button onclick="diceRoll(10)"> 10 Faces </button>
-    <h2 id="diceRoll-10"> </h2>
+    <h1 class="roll"> Roll a Dice!</h1>
+    <button class="first-button" onclick="diceRoll(6)" > 6 Faces </button>
+    <h2 class="value-1" id="diceRoll-6"> </h2>
+    <button  class="second-button" onclick="diceRoll(10)"> 10 Faces </button>
+    <h2 class="value-2" id="diceRoll-10"> </h2>
 </body>
 </html>

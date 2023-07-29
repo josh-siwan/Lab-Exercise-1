@@ -1,0 +1,28 @@
+.roll {
+    text-align: center;
+    background-color: purple;
+}
+
+.first-button {
+    position: absolute;
+    top: 20%;
+    left: 46%;
+}
+
+.second-button {
+    position: absolute;
+    top: 20%;
+    left: 51%;
+}
+
+.value-1 {
+    position: absolute;
+    top: 24%;
+    left: 47%;
+}
+
+.value-2 {
+    position: absolute;
+    top: 24%;
+    left: 53%;
+}
