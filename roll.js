@@ -3,7 +3,7 @@ function diceRoll ( dice ) {
        document.getElementById("diceRoll-6").innerHTML = Math.floor(Math.random() * (6 - 1 + 1) + 1)
     }
         if (dice==10) {
-        document.getElementById("diceRoll-10").innerHTML = Math.floor(Math.random() * (6 - 1 + 1) + 1)
+        document.getElementById("diceRoll-10").innerHTML = Math.floor(Math.random() * (10 - 1 + 1) + 1)
     }
 }
 
