@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDG</title>
+    <link rel="stylesheet" href="enhanced.css">
+    <script type="text/javascript" src="enhanced.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dice Generator</h1>
+    </header>
+    <nav>
+        <button onclick="diceInfo(6)">D6</button>
+        <button onclick="diceInfo(10)">D10</button>
+    </nav>
+    <main>
+        
+        <h2 > Dice Info</h2>
+        <!-- <h3 id="selectedDice"> </h3> -->
+        <div id= diceInfo   class="info">
+            <ul>
+                <li id="sides"></li>
+                <li id="colour"></li>
+                <li id="size"></li>
+                <li id="usage"></li>
+            </ul>
+        </div>
+        <button class="roll" onclick="roll()"> Roll Dice! </button>
+        <h2 class="roll-value" id="diceRoll"> 5 </h2>
+        <div class="three-dices">
+            <div class="first-dice"> 
+                <img class="image-dice-combat" src="./combatDice.jpg" alt="Image">
+                <div class="first-dice-attributes">
+                    <ul>
+                        <li> Sides: 20</li>
+                        <li> Colour: Red</li>
+                        <li> Size: Big</li>
+                        <li> Usgae: Combat</li>
+                    </ul>
+                </div>
+                <button class="first-dice-button" onclick="diceInfo(20)">Confirm Dice</button>
+            </div>
+            <div class="second-dice">
+                <img class="image-dice-decision" src="./decisionDice.jpg" alt="Image">
+                <div class="second-dice-attributes">
+                    <ul>
+                        <li> Sides: 12</li>
+                        <li> Colour: Green</li>
+                        <li> Size: Medium</li>
+                        <li> Usgae: Decision </li>
+                    </ul>
+                </div>
+                <button class="second-dice-button" onclick="diceInfo(12)">Confirm Dice</button>
+            </div>
+            <div class="third-dice">
+                <img class="image-dice-exploratory" src="./exploratoryDice.jpg" alt="Image">
+                <div class="third-dice-attributes">
+                    <ul>
+                        <li> Sides: 40</li>
+                        <li> Colour: Blue</li>
+                        <li> Size: Big</li>
+                        <li> Usgae: Exploratory</li>
+                    </ul>
+                </div>
+                <button  class="third-dice-button" onclick="diceInfo(40)">Confirm Dice</button>
+            </div>
+        </div>
+
+        <button class="create-account" onclick="account('create')"> Create Player Account</button>
+        <button class="cancel-account" onclick="account('cancel')"> Cancel Player Account</button>
+        <form class="form" id=form action="#">
+            <label for="fullName"> Full Name: </label> <br>
+            <input type="text" id="fullName" name="fullName"><br>
+            <label for="email"> Email: </label> <br>
+            <input type="text" id="email" name="email"><br>
+            <label for="mobile">Mobile: </label> <br>
+            <input type="text" id="mobile" name="mobile"><br>
+            <label for="address"> Address: </label> <br>
+            <input type="text" id="address" name="address"><br>
+        </form>
+        
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,165 @@
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    nav {
+    float: left;
+    background-color: lightskyblue;
+    width: 18%;
+    height: 775px;
+    padding: 20px;
+    }
+    article {
+    background-color: whitesmoke;
+    float: left;
+    width: 70%;
+    padding: 20px;
+    }
+
+    .three-dices {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:20px;
+        
+      }
+
+    .first-dice{
+        background-color: lightpink;
+        width:17%;
+        height: 350px;
+
+    }
+
+    .second-dice{
+        background-color: lightgreen;
+        width:17%;
+    }
+
+    .third-dice{
+        background-color: lightblue;
+        width:17%;
+    }
+
+    .first-dice:hover {
+        background-color: red;
+    }
+
+    .second-dice:hover {
+        background-color: green;
+    }
+
+    .third-dice:hover {
+        background-color: blue;
+    }
+
+    .first-dice-attributes {
+        justify-content: center;
+        position: absolute;
+        top: 48%;
+        left:41%;
+        font-size: 18px;
+    }
+    .second-dice-attributes {
+        justify-content: center;
+        position: absolute;
+        top: 48%;
+        left:56%;
+        font-size: 18px;
+    }
+    .third-dice-attributes {
+        justify-content: center;
+        position: absolute;
+        top: 48%;
+        left:70%;
+        font-size: 18px;
+    }
+
+    .first-dice-button {
+        position: absolute;
+        left: 42%;
+        top: 62%;
+        width: 8%;
+        height: 3%;
+    }
+
+    .second-dice-button {
+        position: absolute;
+        left: 56%;
+        top: 62%;
+        width: 8%;
+        height: 3%;
+    }
+
+    .third-dice-button {
+        position: absolute;
+        left: 71%;
+        top: 62%;
+        width: 8%;
+        height: 3%;
+    }
+    .image-dice-combat { 
+        width:8%;
+        height:18%;
+        position: absolute;
+        left: 41.5%;
+        top:30%
+        
+    }
+
+    .image-dice-decision {
+        width:8%;
+        height:18%;
+        position: absolute;
+        left: 56%;
+        top:30%
+    }
+
+    .image-dice-exploratory{
+        width:8%;
+        height:18%;
+        position: absolute;
+        left: 70.3%;
+        top:30%
+    }
+
+    .create-account { 
+        position: absolute;
+        left: 51%;
+        top: 70%;
+    }
+        .cancel-account { 
+        position: absolute;
+        left: 60%;
+        top: 70%;
+    }
+
+    .form {
+        visibility: hidden;
+        position: absolute;
+        left: 55%;
+        top: 75%;
+        
+    }
+
+    .info {
+        position: relative;
+        left:1%;
+    }
+
+    .roll {
+        position: absolute;
+        top: 15%;
+        right:5%;
+        width:8%;
+        height: 5%;
+    }
+
+    .roll-value {
+        position: absolute;
+        top: 20%;
+        right:9%;
+
+    }
